@@ -6,7 +6,7 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:flutter/foundation.dart';
 
 void main() {
-  runApp(Momo_App());
+  runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -63,7 +63,7 @@ class _MyHomePageState extends State<MyHomePage> {
             child: Text("By a Ticket",
                 style: TextStyle(fontWeight: FontWeight.bold))),
         Container(
-            width: 400,
+            width: MediaQuery.of(context).size.width,
             height: 500,
             // width: isSmallScreen ? screenWidth : 600,
             // height: isSmallScreen ? null : 500,

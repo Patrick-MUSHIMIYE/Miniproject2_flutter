@@ -37,7 +37,7 @@ class _MyHomePageState extends State<MyHomePage_1> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-          width: 400,
+          width: MediaQuery.of(context).size.width,
           height: 500,
           margin: EdgeInsets.all(15),
           padding: EdgeInsets.all(15),
